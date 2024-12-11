@@ -207,9 +207,20 @@ h4{
     outline: none;
 }
 
-#email:active{
-    border: 1px solid red;
+#email:invalid{
+    border: 1px solid var(--light-red);
 }
+
+.error-message{
+    display: none;
+    color: var(--light-red);
+    font-size: 13px;
+}
+
+#email:invalid + .error-message{
+    display: block;
+}
+
 .btn-2{
     background-color: var(--pink);
     color: var(--pale-lue);
