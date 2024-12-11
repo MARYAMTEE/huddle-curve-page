@@ -63,11 +63,11 @@ h4{
     color: rgb(136, 136, 136);
     padding-top: 5px;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .para3{
-    font-size: 14px;
+    font-size: 13.5px;
     font-weight: 500;
     line-height: 1.5;
     padding-top: 15px;
@@ -82,6 +82,7 @@ h4{
 
 .container{
     width: 90%;
+    max-width: 21.4rem;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -173,7 +174,7 @@ h4{
 }
 
 .section-five{
-    padding: 70px 0 220px 0;
+    padding: 70px 0 250px 0;
 }
 
 
