@@ -21,7 +21,7 @@ body{
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font: 14px;
-    text-align: center;
+    text-align: center; 
     padding-top: 25px;
 }
 
@@ -32,6 +32,7 @@ img, svg, picture{
 h1{
     font-family: "Poppins", serif;
     font-weight: 700;
+    padding-bottom: 25px;
 }
 
 h2{
@@ -56,7 +57,7 @@ h4{
 .para1{
     font-size: 14px;
     font-weight: 500;
-    padding: 25px 0 40px 0;
+    padding: 0 0 40px 0;
 }
 
 .para2{
@@ -100,6 +101,10 @@ h4{
 .section-one{
     padding-top: 100px;
     margin-bottom: -30px;
+}
+
+.bg-pattern{
+    width: 300px;
 }
 
 .btn{
@@ -151,6 +156,10 @@ h4{
 
 .text-icons{
     padding: 40px 0;
+}
+
+.grow-img, .users-img, .flowing-img{
+    width: 245px; 
 }
 
 .section-two{
@@ -243,9 +252,11 @@ h4{
     filter: brightness(0) invert(1);
     width: 210px;
 }
+
 .footer-svg{
     padding: 35px 0;
 }
+
 .footer-svg svg{
     margin-right: 20px;
 }
@@ -269,4 +280,102 @@ h4{
 
 .fab:hover{
     color: lightblue;
+}
+
+@media only screen and (min-width: 900px){
+
+body{
+    text-align: start;
+}
+
+section{
+    margin: 0;
+}
+.container{
+    width: 100%;
+    max-width: 90%;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+h1{
+    font-size: 30px;
+    margin-inline: auto;
+}
+
+h2{
+    font-size: 75px;
+}
+
+.para1{
+    max-width: 27rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.para3{
+    max-width: 40rem;
+}
+
+.para4{
+    max-width: 17.5rem;
+    font-size: 12px;
+}
+
+.intro-img{
+    padding: 40px 0; 
+}
+
+.bg-pattern{
+    width: 623px;
+}
+
+.message-icon{
+    width: 30px;
+    display: block;
+    margin-left: 0px;
+}
+
+.communities-icon{
+    width: 35px;
+    display: block;
+    margin-left: 0px;
+}
+
+.grow-img, .users-img, .flowing-img{
+    width: 495px; 
+}
+
+.section-one{
+    text-align: center;
+}
+.text-icons{
+    margin-inline: auto;
+}
+.btn-1{
+    padding: 23px 80px;
+    font-size: 16px;
+}
+
+.section-five{
+    text-align: center;
+}
+
+.section-footer{
+    max-width: 100%;
+}
+.footer-svg{
+    padding: 15px 0;
+}
+}
+
+@media only screen and (min-width: 1200px){
+    .container{
+        width: 100%;
+        max-width: 100%;
+    }
 }
