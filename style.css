@@ -297,10 +297,16 @@ section{
 }
 .row{
     display: flex;
-    justify-content: space-between;
     margin: auto;
 }
 
+.rows{
+    flex-direction: row-reverse;
+}
+
+.col{
+    flex: 1;
+}
 h1{
     font-size: 30px;
     margin-inline: auto;
@@ -336,14 +342,10 @@ h2{
 
 .message-icon{
     width: 30px;
-    display: block;
-    margin-left: 0px;
 }
 
 .communities-icon{
     width: 35px;
-    display: block;
-    margin-left: 0px;
 }
 
 .grow-img, .users-img, .flowing-img{
@@ -363,6 +365,7 @@ h2{
 
 .section-five{
     text-align: center;
+    padding: 70px 0;
 }
 
 .section-footer{
