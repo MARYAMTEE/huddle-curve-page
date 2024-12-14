@@ -288,9 +288,6 @@ body{
     text-align: start;
 }
 
-section{
-    margin: 0;
-}
 .container{
     width: 100%;
     max-width: 90%;
@@ -307,24 +304,40 @@ section{
 .col{
     flex: 1;
 }
+
 h1{
-    font-size: 30px;
+    font-size: 35px;
     margin-inline: auto;
 }
 
 h2{
-    font-size: 75px;
+    font-size: 80px;
+}
+
+.flowing{
+    margin-inline: auto;
+}
+
+h4{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.flowing{
+    display: block;
+    margin-inline: auto;
 }
 
 .para1{
-    max-width: 27rem;
+    font-size: 18px;
+    max-width: 34rem;
+    line-height: 1.6;
     text-align: center;
     margin: 0 auto;
-    padding: 20px 0;
 }
 
 .para3{
-    max-width: 40rem;
+    max-width: 20rem;
 }
 
 .para4{
@@ -348,37 +361,126 @@ h2{
     width: 35px;
 }
 
-.grow-img, .users-img, .flowing-img{
-    width: 495px; 
+.grow-img, .users-img{
+    display: block;
+    margin-left: auto;
+    width: 495px;
+}
+
+.flowing-img{
+    display: block;
+    margin-right: auto;
+    width: 495px;
 }
 
 .section-one{
+    padding: 200px 0;
     text-align: center;
 }
+
 .text-icons{
     margin-inline: auto;
+    padding-top: 100px;
 }
 .btn-1{
-    padding: 23px 80px;
-    font-size: 16px;
+    padding: 27px 80px;
+    font-size: 22px;
+    letter-spacing: 1px;
 }
 
 .section-five{
     text-align: center;
-    padding: 70px 0;
+    padding: 100px 0;
 }
 
 .section-footer{
-    max-width: 100%;
+    padding: 100px 0;
 }
 .footer-svg{
     padding: 15px 0;
 }
+
+.social-icons{
+    padding-top: 60px;
+}
+
+.fab{
+    font-size: 40px;
+}
 }
 
 @media only screen and (min-width: 1200px){
-    .container{
-        width: 100%;
-        max-width: 100%;
-    }
+.container{
+    width: 100%;
+    max-width: 85%;
+}
+
+.logo-img {
+    width: 240px;
+}
+
+.logo-icon{
+    width: 240px;
+}
+
+.bg-pattern{
+    width: 1000px;
+}
+
+.btn{
+    font-size: 21px;
+    padding: 12px 37px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+
+h2{
+    font-size: 130px;
+}
+
+h3{
+    font-size: 43px;
+    font-weight: 700;
+}
+
+.para1{
+    font-size: 25px;
+    max-width: 47rem;
+}
+
+.para3{
+    font-size: 18px;
+    max-width: 47rem;
+}
+
+.para4{
+    font-size: 17px;
+    max-width: 25rem;
+}
+
+.footer-form{
+    display: block;
+}
+
+#email{
+    margin-right: 35px;
+}
+
+.btn-1{
+    padding: 37px 130px;
+}
+
+#email{
+    width: 24rem;
+    padding: 22px;
+}
+
+.btn-2{
+    margin: 0;
+    font-size: 18px;
+    padding: 16px 48px;
+}
 }
