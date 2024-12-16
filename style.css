@@ -285,6 +285,10 @@ body{
     text-align: start;
 }
 
+.header{
+    padding: 5px 0 40px 0;
+}
+
 .container{
     width: 100%;
     max-width: 90%;
@@ -367,7 +371,7 @@ h4{
 }
 
 .section-one{
-    padding: 150px 0;
+    padding: 180px 0 150px 0;
     text-align: center;
 }
 
