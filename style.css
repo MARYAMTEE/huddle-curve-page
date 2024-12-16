@@ -142,13 +142,13 @@ h4{
 .communities-icon{
     width: 30px;
     display: block;
-    margin-left: 70px;
+    margin-left: 100px;
 }
 
 .message-icon{
     width: 22px;
     display: block;
-    margin-left: 60px;
+    margin-left: 90px;
 }
 
 .text-icons{
@@ -291,9 +291,12 @@ body{
 }
 .row{
     display: flex;
+    margin: auto;
+}
+
+.two-cols{
     justify-content: space-between;
     align-items: center;
-    margin: auto;
 }
 
 .rows{
@@ -344,11 +347,11 @@ h4{
 }
 
 .message-icon{
-    width: 30px;
+    width: 50px;
 }
 
 .communities-icon{
-    width: 35px;
+    width: 55px;
 }
 
 .grow-img, .users-img{
@@ -448,6 +451,16 @@ h3{
 .para4{
     font-size: 16px;
     max-width: 23.5rem;
+}
+
+.message-icon{
+    width: 50px;
+    margin-left: 190px;
+}
+
+.communities-icon{
+    width: 55px;
+    margin-left: 200px;
 }
 
 .footer-form{
