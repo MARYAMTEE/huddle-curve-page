@@ -371,7 +371,7 @@ h4{
 }
 
 .section-one{
-    padding: 180px 0 150px 0;
+    padding: 185px 0 150px 0;
     text-align: center;
 }
 
@@ -421,7 +421,8 @@ body{
 }
 
 .bg-pattern{
-    width: 800px;
+    margin-top: 20px;
+    width: 950px;
 }
 
 .btn{
